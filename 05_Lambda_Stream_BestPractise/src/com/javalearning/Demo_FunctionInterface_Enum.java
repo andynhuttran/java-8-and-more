@@ -1,11 +1,6 @@
 package com.javalearning;
 
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.function.BiPredicate;
 import java.util.function.DoubleBinaryOperator;
-import java.util.function.ObjDoubleConsumer;
-import java.util.function.ToIntBiFunction;
 
 enum Operator {
 	
@@ -42,19 +37,11 @@ enum Operator {
 
 
 public class Demo_FunctionInterface_Enum {
+	
 	public static void main(String[] args) {
+		
 		double result = Operator.PLUS.apply(1.5, 3.5);		
 		System.out.println("result: " + result);
-		
-		ToIntBiFunction<String, Double> biFunction = new ToIntBiFunction<String, Double>() {
-			
-			@Override
-			public int applyAsInt(String t, Double u) {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-		};
-		
 		
 	}
 }
