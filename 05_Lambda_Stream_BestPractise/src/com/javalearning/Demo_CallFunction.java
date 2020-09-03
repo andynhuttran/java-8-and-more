@@ -1,12 +1,6 @@
 package com.javalearning;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeSet;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 class Task {
 	
@@ -42,10 +36,18 @@ public class Demo_CallFunction {
 		Task t = new Task(0, 10);
 		t.doTask();
 		
-		Stream<String> stream = Stream.of("abc", "xyz");
-		
-		
-		
+		/*
+	  	text-0
+		text-6
+		text-12
+		text-18
+		text-24
+		text-30
+		text-36
+		text-42
+		text-48
+		text-54
+		 */
 	}
 }
 
