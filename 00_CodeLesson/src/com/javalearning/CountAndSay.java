@@ -31,7 +31,7 @@ oncatenation of "12" and "11" which is "1211".
 
 */
 
-class Solution {
+/*class Solution {
     public String countAndSay(int n) {
         String rs = "1";
         int i = 1;
@@ -70,3 +70,4 @@ class Solution {
         return builder.toString();
     }
 }
+*/

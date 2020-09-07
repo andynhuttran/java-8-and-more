@@ -23,7 +23,8 @@ Could you do it in O(n) time and O(1) space?
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+
+/*class Solution {
     public boolean isPalindrome(ListNode head) {
         
         int count = countList(head);
@@ -69,4 +70,4 @@ class Solution {
         
         return count;
     }
-}
+}*/
